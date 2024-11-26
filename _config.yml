@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Myrick Wang"
+title                    : "Myrick's homepage"
 title_separator          : "-"
 name                     : &name "Myrick Wang"
 description              : &description "personal description"
-url                      : https://rickkwang.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://rickkwang.github.io # the base hostname & protocol for your site e.g. "https://rickkwang.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rickkwang/rickkwang.github.io"
 
