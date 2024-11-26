@@ -13,15 +13,20 @@ Welcome to Myrick's log
 
 📖 Education
 ------
-2023.09 - present, Undergraduate, Study Electrical Electronic Engineering, [University of Bristol](https://www.bristol.ac.uk).
+2023.09 - present, Undergraduate, Study Electrical Electronic Engineering in [University of Bristol](https://www.bristol.ac.uk).
 
 📚 Courses
 ------
 Engineering Mathematics 1 EMAT1001
+
 Analysis and Design Electrical&Electronic Systems EENG10006
+
 Digital Circuit and Systems EENG14000
+
 Experimental Skills EENG10007
+
 Introduction to Computer Programming EMAT10007
+
 Further Computer Programming EMAT10006
 
 📑 Open-source Paper
