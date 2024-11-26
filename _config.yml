@@ -21,7 +21,7 @@ repository               : "rickkwang/rickkwang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar.jpeg"
+  avatar           : "avatar.png"
   name             : "Myrick Wang"
   pronouns         : # example: "he/him"  
   bio              : "Analysis & Design University of Bristol E&E BEng 27'"
