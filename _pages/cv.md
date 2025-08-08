@@ -1,8 +1,10 @@
 ---
 permalink: /cv/
-title: "Curriculum Vitae"
+title: ""
 layout: single
 ---
+
+# Curriculum Vitae
 
 <h1 align="center">MYRICK WANG</h1>
 
