@@ -1,40 +1,35 @@
 ---
-permalink: /
-title: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+permalink: /about/
+title: "About Me"
 ---
 
-Welcome to Myrick's log
-------
-🤖 Hi there,I'm Myrick, a Undergrad Engineering student at Bristol.
+# About Me
 
-📖 Education
-------
-2023.09 - present, Undergraduate, Study Electrical Electronic Engineering in [University of Bristol](https://www.bristol.ac.uk).
+Hi, I am Myrick Wang. I am currently studying Analysis & Design at the University of Bristol (E&E BEng 27').
 
-📚 Courses
-------
-Engineering Mathematics 1 EMAT1001
+- **Location:** Bristol, England, UK / Xiamen, China
+- **Email:** myrickwan9@gmail.com
+- **LinkedIn:** [Myrick Wang](https://www.linkedin.com/in/myrick-wang)
+- **Google Scholar:** [Profile](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)
 
-Analysis and Design Electrical&Electronic Systems EENG10006
+## Education
+- **University of Bristol**
+  - BEng, Electrical & Electronic Engineering, 2023–2027
 
-Digital Circuit and Systems EENG14000
+## Research Interests
+- Signal Processing
+- Embedded Systems
+- Machine Learning
 
-Experimental Skills EENG10007
+## Skills
+- Python, C/C++
+- MATLAB
+- Embedded Hardware
 
-Introduction to Computer Programming EMAT10007
-
-Further Computer Programming EMAT10006
-
-📑 Open-source Paper
-------
-You could reach my github and my Project and Report/Paper are in [Open-Source Resources](https://github.com/rickkwang/EELab_report)
-
-💼 Internships
-------
-
-🫥 More about me
-------
+## More
+- [CV](/cv/)
+- [Portfolio](/portfolio/)
+- [Talks](/talks/)
+- [Teaching](/teaching/)
+- [Publications](/publications/)
+- [Blog](/year-archive/)

@@ -6,16 +6,22 @@
 
 main:
   - title: "About me"
-    url: /publications/
+    url: /about/
 
   - title: "CV"
     url: /cv/
-  
-  - title: "Educations"
-    url: /Educations/      
-    
-  - title: "internships"
-    url: /internships/
-        
+
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Publications"
+    url: /publications/
+
   - title: "Blog"
     url: /year-archive/
