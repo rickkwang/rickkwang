@@ -1,7 +1,0 @@
----
-permalink: /Educations/
-layout: null
----
-<meta http-equiv="refresh" content="0; url=/about/" />
-<script>location.replace('/about/');</script>
-<p>If you are not redirected automatically, <a href="/about/">click here</a>.</p>
