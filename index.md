@@ -2,6 +2,7 @@
 permalink: /
 title: "Myrick's homepage"
 layout: single
+author_profile: true
 ---
 
 Hi, I am Myrick Wang. I am currently studying Analysis & Design at the University of Bristol (E&E BEng 27').
