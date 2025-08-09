@@ -1,3 +1,4 @@
+collections_dir: content
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -154,7 +155,7 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - content/_pages
   - files
 exclude:
   - "*.sublime-project"
