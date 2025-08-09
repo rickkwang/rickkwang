@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Myrick's homepage"
+title: ""
 layout: single
 author_profile: true
 ---
