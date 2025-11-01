@@ -5,11 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.enable_publication_grid %}
-  {% include publication-table.html %}
-{% else %}
-  {% include base_path %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% include base_path %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
