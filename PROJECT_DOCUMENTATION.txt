@@ -36,8 +36,8 @@ rickkwang.github.io/                    # 个人网站项目根目录
 │   ├── browserconfig.xml               # 🎨 浏览器配置文件
 │   ├── manifest.json                   # 🎨 Web应用清单文件
 │   └── mstile-*.png                    # 🎨 Windows磁贴图标
-└── markdown_generator/                 # Markdown生成工具
-    └── publications.py                 # publication生成工具
+└── publication-tools/                  # 出版物内容生成工具
+    └── tsv-to-markdown.py              # TSV到Markdown转换工具
 
 💡 编写博客：在 _posts/ 目录创建 YYYY-MM-DD-title.md 文件 (Jekyll标准做法)
 📚 编写出版物：在 content/_publications/ 目录创建 YYYY-MM-DD-title.md 文件
