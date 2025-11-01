@@ -25,7 +25,7 @@ rickkwang.github.io/                    # 个人网站项目根目录
 │   └── _publications/                  # 📖【出版物目录】- 新Publication放这里
 │       └── YYYY-MM-DD-title.md         # 出版物文件命名格式
 ├── 
-├── files/                              # 文件资源目录 (PDF等)
+├── files/                              # 文件资源目录 (PDF等) - 用于存放论文、幻灯片等文档
 ├── images/                             # 图片资源目录
 │   ├── avatar.png                      # 👤 作者头像
 │   ├── bio-photo*.jpg                  # 👤 作者头像备选
