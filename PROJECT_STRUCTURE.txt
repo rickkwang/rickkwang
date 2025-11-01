@@ -27,6 +27,15 @@ rickkwang.github.io/                    # 个人网站项目根目录
 ├── 
 ├── files/                              # 文件资源目录 (PDF等)
 ├── images/                             # 图片资源目录
+│   ├── avatar.png                      # 👤 作者头像
+│   ├── bio-photo*.jpg                  # 👤 作者头像备选
+│   ├── homepage.png                    # 🏠 首页截图 (在README中使用)
+│   ├── favicon.ico                     # 🎨 网站图标
+│   ├── site-logo.png                   # 🎨 网站Logo
+│   ├── safari-pinned-tab.svg           # 🎨 Safari浏览器标签页图标
+│   ├── browserconfig.xml               # 🎨 浏览器配置文件
+│   ├── manifest.json                   # 🎨 Web应用清单文件
+│   └── mstile-*.png                    # 🎨 Windows磁贴图标
 └── markdown_generator/                 # Markdown生成工具
     └── publications.py                 # publication生成工具
 
