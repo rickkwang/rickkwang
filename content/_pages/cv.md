@@ -70,7 +70,7 @@ Seeking entry-level positions in:
 ---
 
 ## 📌 Additional Information
-- Strong **analytical** and **problem-solving** abilities demonstrated through academic projects  
+- Strong **analytical** and **problem-solving** abilities demonstrated through projects  
 - Excellent **teamwork** and **communication** skills  
 - Committed to **continuous learning** and **professional development**  
 - Available for **internships**, **graduate training programs**, and **full-time positions** upon graduation

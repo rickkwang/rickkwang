@@ -1,17 +1,15 @@
 ---
-permalink: /publications/
+layout: archive
 title: "Publications"
-layout: single
+permalink: /publications/
+author_profile: true
 ---
 
-# Publications
-
-此处展示你的主要学术论文和出版物。
-
-## 代表性论文
-- 2024: Paper Title Number 4
-
-如需添加更多出版物，请补充。
-
-
-
+{% if site.enable_publication_grid %}
+  {% include publication-table.html %}
+{% else %}
+  {% include base_path %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
