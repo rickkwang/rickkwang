@@ -61,12 +61,26 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+// Light theme colors
+$body-color-light           : #fff;
+$background-color-light     : #fff;
+$text-color-light           : $dark-gray;
+$border-color-light         : $lighter-gray;
+$code-background-color-light: #fafafa;
+
+// Dark theme colors
+$body-color-dark            : #202124;
+$background-color-dark      : #121212;
+$text-color-dark            : #e8eaed;
+$border-color-dark          : #5f6368;
+$code-background-color-dark : #2d2d2d;
+
+// Current theme colors (defaulting to light)
+$body-color                 : var(--body-color, $body-color-light);
+$background-color           : var(--background-color, $background-color-light);
+$text-color                 : var(--text-color, $text-color-light);
+$border-color               : var(--border-color, $border-color-light);
+$code-background-color      : var(--code-background-color, $code-background-color-light);
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
