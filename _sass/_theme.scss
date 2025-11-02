@@ -1,1 +1,29 @@
-/* Styles for theme switching have been removed. */
+
+body {
+  background-color: #{$background-color-light};
+  color: #{$text-color-light};
+}
+
+a {
+  color: #{$link-color};
+}
+
+a:hover {
+  color: #{$link-color-hover};
+}
+
+.masthead__menu-item a {
+  color: #{$masthead-link-color};
+}
+
+.masthead__menu-item a:hover {
+  color: #{$masthead-link-color-hover};
+}
+
+pre, code {
+  background-color: #{$code-background-color-light};
+}
+
+.page, .archive {
+    border-color: #{$border-color-light};
+}

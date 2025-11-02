@@ -75,12 +75,12 @@ $text-color-dark            : #e8eaed;
 $border-color-dark          : #5f6368;
 $code-background-color-dark : #2d2d2d;
 
-// Current theme colors (defaulting to light)
-$body-color                 : var(--body-color, $body-color-light);
-$background-color           : var(--background-color, $background-color-light);
-$text-color                 : var(--text-color, $text-color-light);
-$border-color               : var(--border-color, $border-color-light);
-$code-background-color      : var(--code-background-color, $code-background-color-light);
+// Current theme colors (fixed to light theme)
+$body-color                 : $body-color-light;
+$background-color           : $background-color-light;
+$text-color                 : $text-color-light;
+$border-color               : $border-color-light;
+$code-background-color      : $code-background-color-light;
 
 $primary-color              : #7a8288;
 $success-color              : #62c462;
