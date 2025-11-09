@@ -7,16 +7,9 @@ html {
   min-height: 100%;
 }
 
-:root {
-  --masthead-offset: #{$masthead-height};
-  scroll-padding-top: $masthead-height;
-  scroll-padding-top: var(--masthead-offset, #{$masthead-height});
-}
-
 body {
   margin: 0;
   padding: $masthead-height 0 0;
-  padding: var(--masthead-offset, #{$masthead-height}) 0 0;
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
