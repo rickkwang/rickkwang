@@ -256,6 +256,17 @@ defaults:
       author_profile: false
       share: true
       comments: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 
 
