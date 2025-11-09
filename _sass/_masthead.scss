@@ -10,12 +10,12 @@
   min-height: $masthead-height;
   top: 0;
   width: 100%;
+  z-index: 1000; /* 提高z-index确保导航栏始终在最上层 */
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 5;
 
   &__inner-wrap {
     @include container;
@@ -28,7 +28,7 @@
     }
 
     nav {
-      z-index: 10;
+      z-index: 1001; /* 提高导航栏内元素的z-index */
     }
 
     a {
