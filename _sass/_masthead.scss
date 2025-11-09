@@ -3,14 +3,13 @@
    ========================================================================== */
 
 .masthead {
-  position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   background: var(--background-color);
   border-bottom: 1px solid var(--border-color);
   min-height: $masthead-height;
-  top: 0;
+  top: auto;
   width: 100%;
-  z-index: 1000; /* 提高z-index确保导航栏始终在最上层 */
+  z-index: 1000; /* 保持較高 z-index 以避免被內容覆蓋 */
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -25,10 +24,6 @@
 
     @include breakpoint($x-large) {
       max-width: $x-large;
-    }
-
-    nav {
-      z-index: 1001; /* 提高导航栏内元素的z-index */
     }
 
     a {
