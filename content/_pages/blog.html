@@ -7,8 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>博客文章</h2>
-
 {% for post in site.blog %}
-  {% include archive-single.html %}
+  {% unless post.hidden %}
+    {% include archive-single.html %}
+  {% endunless %}
 {% endfor %}
