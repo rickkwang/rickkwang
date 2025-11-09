@@ -2,6 +2,7 @@
 body {
   background-color: #{$background-color-light};
   color: #{$text-color-light};
+  font-family: #{$global-font-family};
 }
 
 a {
@@ -26,4 +27,23 @@ pre, code {
 
 .page, .archive {
     border-color: #{$border-color-light};
+}
+
+/* Ensure font consistency across all content */
+.page__content {
+  font-family: #{$global-font-family};
+}
+
+.page__content p,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.page__content li,
+.page__content a,
+.page__content span,
+.page__content div {
+  font-family: #{$global-font-family};
 }
