@@ -6,9 +6,10 @@
   position: fixed;
   background: var(--background-color);
   border-bottom: 1px solid var(--border-color);
-  height: $masthead-height;
+  min-height: var(--masthead-offset, #{$masthead-height});
   top: 0;
   width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
