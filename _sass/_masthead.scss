@@ -3,10 +3,11 @@
    ========================================================================== */
 
 .masthead {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   background: var(--background-color);
   border-bottom: 1px solid var(--border-color);
-  height: $masthead-height;
+  min-height: $masthead-height;
   top: 0;
   width: 100%;
 
@@ -14,7 +15,7 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 5;
 
   &__inner-wrap {
     @include container;
