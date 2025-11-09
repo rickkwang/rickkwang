@@ -3,13 +3,13 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: fixed;
   background: var(--background-color);
   border-bottom: 1px solid var(--border-color);
-  min-height: $masthead-height;
-  top: auto;
+  height: $masthead-height;
+  top: 0;
   width: 100%;
-  z-index: 1000; /* 保持較高 z-index 以避免被內容覆蓋 */
+  z-index: 20;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -24,6 +24,9 @@
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+    }
+    nav {
+      z-index: 10;
     }
 
     a {
