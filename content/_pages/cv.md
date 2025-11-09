@@ -7,6 +7,7 @@ author_profile: true
 
 # Curriculum Vitae
 
+
 <h1 align="center">MYRICK WANG</h1>
 
 <p align="center">
