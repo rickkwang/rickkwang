@@ -10,7 +10,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  padding-top: $masthead-height; /* ensure content starts below fixed masthead */
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
