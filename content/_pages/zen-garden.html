@@ -1,0 +1,11 @@
+---
+permalink: /zen-garden/
+title: "Zen garden 禪境🎐"
+layout: archive
+author_profile: true
+---
+
+{% include base_path %}
+{% for post in site.zen_garden reversed %}
+  {% include archive-single.html %}
+{% endfor %}

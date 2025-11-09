@@ -223,6 +223,9 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path/
+  zen_garden:
+    output: true
+    permalink: /zen-garden/:path/
 
 
 
@@ -252,6 +255,16 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+  # _zen_garden
+  - scope:
+      path: ""
+      type: zen_garden
     values:
       layout: single
       author_profile: true
