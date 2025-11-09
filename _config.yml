@@ -213,6 +213,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
   pages:
     output: true
     permalink: /:path/
