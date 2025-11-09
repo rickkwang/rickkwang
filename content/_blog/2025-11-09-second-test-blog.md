@@ -1,0 +1,21 @@
+---
+title: "Welcome to My Academic Blog"
+collection: blog
+permalink: /blog/welcome
+date: 2025-11-09
+author_profile: true
+excerpt: "This is the first post on my academic blog. I am an Electrical and Electronic Engineering student focusing on Analysis and Design. Here, I will share articles about engineering, technology, and academic experiences."
+---
+
+
+## Welcome to My Academic Blog
+
+This is the first post on my academic blog.
+
+### About Me
+
+I am an Electrical and Electronic Engineering student focusing on Analysis and Design.
+
+#### Blog Content
+
+Here, I will share articles about engineering, technology, and academic experiences.
