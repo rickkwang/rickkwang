@@ -253,9 +253,11 @@ defaults:
       type: publications
     values:
       layout: single
-      author_profile: false
-      share: true
+      author_profile: true
+      read_time: true
       comments: true
+      share: true
+      related: true
   # _blog
   - scope:
       path: ""
