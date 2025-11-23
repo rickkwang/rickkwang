@@ -7,7 +7,7 @@ author_profile: true
 
 # 👋 Hi, this is Myrick Wang, welcome
 
-## I’m documenting my learning notes, CV and academic projects in this blog since 2024, you can tell my progression here 💫
+#### I’m documenting my learning notes, CV and academic projects in this blog since 2024, you can tell my progression here 💫
 
 ---
 
