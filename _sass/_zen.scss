@@ -1,23 +1,22 @@
-/* 禅境内容特殊样式 */
+/* 禅境内容特殊样式 - 适用于 zen-land 页面 */
+.page__content .archive__item-excerpt,
 .zen-content {
   font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   line-height: 1.8;
   font-size: 16px;
   text-align: justify;
-  
-  /* 对于中文内容，增加段落间距 */
-  .zen-paragraph {
-    margin-bottom: 1.2em;
-    text-indent: 2em; /* 中文段落首行缩进 */
-  }
+}
+
+/* 针对禅境集合的文章内容 */
+.archive__item-content p {
+  margin-bottom: 1.2em;
+  text-indent: 2em; /* 中文段落首行缩进 */
 }
 
 /* 响应式设计：在小屏幕上取消首行缩进，使用段落间距 */
 @media screen and (max-width: 768px) {
-  .zen-content {
-    .zen-paragraph {
-      text-indent: 0;
-      margin-top: 1em;
-    }
+  .archive__item-content p {
+    text-indent: 0;
+    margin-top: 1em;
   }
 }

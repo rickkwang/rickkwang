@@ -1,7 +1,7 @@
 ---
 title: "Autumn Whispers"
 collection: zen_garden
-permalink: /zen-garden/autumn-whispers
+permalink: /zen-land/autumn-whispers
 date: 2025-11-23
 excerpt: "A quiet reflection on the gentle wisdom of falling leaves."
 venue:

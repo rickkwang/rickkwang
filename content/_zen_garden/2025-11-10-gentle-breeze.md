@@ -1,7 +1,7 @@
 ---
 title: "Gentle Breeze"
 collection: zen_garden
-permalink: /zen-garden/gentle-breeze
+permalink: /zen-land/gentle-breeze
 date: 2025-11-10
 excerpt: "A quiet note on staying present amid projects and deadlines."
 venue:
