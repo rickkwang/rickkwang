@@ -1,4 +1,16 @@
 
+:root {
+  --body-color: #{$body-color-light};
+  --background-color: #{$background-color-light};
+  --text-color: #{$text-color-light};
+  --border-color: #{$border-color-light};
+  --link-color: #{$link-color};
+  --link-color-hover: #{$link-color-hover};
+  --masthead-link-color: #{$masthead-link-color};
+  --masthead-link-color-hover: #{$masthead-link-color-hover};
+  --code-background-color: #{$code-background-color-light};
+}
+
 body {
   background-color: #{$background-color-light};
   color: #{$text-color-light};
