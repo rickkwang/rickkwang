@@ -1,8 +1,8 @@
 ---
 title: "Moonlit Pause"
 collection: zen_garden
-permalink: /zen-garden/gentle-breeze
-date: 2025-11-10
+permalink: /zen-garden/moonlit-pause
+date: 2025-11-22
 excerpt: "A quiet note on staying present amid projects and deadlines."
 venue:
 citation:

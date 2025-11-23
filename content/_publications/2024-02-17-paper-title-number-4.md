@@ -1,9 +1,12 @@
 ---
-title: "My first publication"
+title: "My First Publication"
 collection: publications
 layout: single
-permalink: /publication/your-publication-key
-date: 2025-11-09
+permalink: /publications/my-first-publication
+date: 2024-02-17
+venue: "Academic Journal"
+excerpt: "This is my first academic publication."
+citation: 'Wang, M. (2024). "My First Publication". Academic Journal, 1(1), 1-10.'
 ---
 
-Hi, this is Myrick, I'm just building my personal acadamic website, please wait for me!
+This is my first academic publication. I'm still building my personal academic website, please check back later for the full content.
