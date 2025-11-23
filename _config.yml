@@ -1,19 +1,20 @@
 collections_dir: content
-# Welcome to Jekyll!
-#
+# Welcome to Jekyll! #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
 locale                   : "en-US"
+site_theme               : "default"        # Currently available options are "default", "air"
 title                    : "Myrick's homepage"
 title_separator          : "-"
 name                     : &name "Myrick Wang"
 description              : &description "personal description"
-url                      : https://rickkwang.github.io # the base hostname & protocol for your site e.g. "https://rickkwang.github.io"
+url                      : https://rickkwang.github.io    # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+# or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rickkwang/rickkwang.github.io"
 
@@ -31,9 +32,11 @@ author:
   uri              : # URL
   email            : "myrickwan9@gmail.com" 
 
-  # Professional websites
+  # Academic websites
+  academia : # URL
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  inspire-hep : # URL
   impactstory      : # URL
   orcid            : # URL
   semantic         : # URL
@@ -50,6 +53,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
+  artstation : # Username
   bluesky          : "myrwang.bsky.social" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
@@ -90,8 +94,7 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-show_archive_excerpts    : false # disable duplicate content previews on archive pages
-# talkmap_link             : false #change to true to add link to talkmap on talks page
+talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -119,7 +122,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : false # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -132,12 +135,13 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : rickMygod
+  username               : &twitter rickMygod
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+  og_image                 :  # Open Graph/Twitter default site image
+  og_description                 :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -307,6 +311,7 @@ plugins:
   - jekyll-paginate
   - jemoji
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -315,18 +320,19 @@ whitelist:
   - jekyll-paginate
   - jemoji
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+# Type
+# - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+# - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+# Path (examples)
+# - Archive page should exist at path when using Liquid method or you can
+# expect broken links (especially with breadcrumbs enabled)
+# - /tags/my-awesome-tag/index.html ~> path: /tags/
+# - path: /categories/
+# - path: /
 category_archive:
   type: liquid
   path: /categories/
