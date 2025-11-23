@@ -7,7 +7,7 @@ author_profile: true
 
 # 🪷 Welcome to Myrick's Academic Garden
 
-### I’m documenting my learning notes, CV and academic projects in this blog since 2024, you can tell my progression here 💫
+- ### I’m documenting my learning notes, CV and academic projects in this blog since 2024, you can tell my progression here 💫
 
 ---
 
