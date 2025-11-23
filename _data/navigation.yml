@@ -8,11 +8,11 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Publications"
-    url: /publications/
+  - title: "Projects"
+    url: /projects/
 
   - title: "Blog"
     url: /blog/
 
-  - title: "Zen garden 禪境🎐"
-    url: /zen-garden/
+  - title: "Zen Land 禪境 🎐"
+    url: /zen-land/
