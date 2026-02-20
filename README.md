@@ -2,4 +2,4 @@
   <img width="1000" src="./assets/rickkwang-retro-terminal.gif" />
 </p>
 
-If you like my work, please [Sponsor me ❤️](https://github.com/sponsors/rickkwang); it would be a great help to me.
+Thanks for stopping by. I am always happy to connect, collaborate, and learn with fellow builders.
