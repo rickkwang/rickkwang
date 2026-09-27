@@ -1,4 +1,4 @@
-I'm **Myrick Wang**, currently building [Noa](https://github.com/rickkwang/Noa), [Noa-Claude](https://github.com/rickkwang/Noa-Claude) and [Deskling](https://github.com/rickkwang/Deskling).
+I'm **Myrick Wang**. I build local-first software — [Noa](https://github.com/rickkwang/Noa), [Noa-Claude](https://github.com/rickkwang/Noa-Claude) and [Deskling](https://github.com/rickkwang/Deskling). Try them, and let me know what you think.
 
 <table width="1200px" cellspacing="0" cellpadding="0">
 <tr>
