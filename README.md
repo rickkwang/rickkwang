@@ -1,4 +1,4 @@
-I'm **Myrick Wang**. I build local-first software — [Noa](https://github.com/rickkwang/Noa), [Noa-Claude](https://github.com/rickkwang/Noa-Claude) and [Deskling](https://github.com/rickkwang/Deskling). Try them, and let me know what you think.
+I'm **Zhenhao**. I build local-first software — [Noa](https://github.com/rickkwang/Noa), [Noa-Claude](https://github.com/rickkwang/Noa-Claude) and [Deskling](https://github.com/rickkwang/Deskling). Your data never leaves your machine, which is good news for both of us. Try them, and let me know what you think.
 
 <table width="1200px" cellspacing="0" cellpadding="0">
 <tr>
